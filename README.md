@@ -11,11 +11,11 @@ git branch
 git branch -d
 git add
 git commit -m
-git branch 
 git merge 
 git checkout -b "" //tao branch
 git push -u origin main
 git push tai len github
 git pull tai github ve cac chinh sua va push cac file len lai
 gitgnore de an cac file k muon push len github
+git restore --staged "ten file"
   -->
