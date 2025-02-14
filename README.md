@@ -15,5 +15,7 @@ git branch -b
 git merge 
 git checkout
 git push -u origin main
-
+git push tai len github
+git pull tai github ve cac chinh sua va push cac file len lai
+gitgnore de an cac file k muon push len github
   -->
