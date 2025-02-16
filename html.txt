@@ -1,0 +1,14 @@
+-sử dụng margin khi có phần tử mẹ và cùng cấp
++nên sử dụng margin bottom
++nên lấy thằng trên đẩy thằng dưới( thằng trên xuất hiện trước nên dễ hơn khi cài đặt)
++nên lấy thằng trái đẩy thằng phải ( thằng trên xuất hiện trước nên dễ hơn khi cài đặt)
+-sử dụng padding khi cần tạo ra khoảng cách giữa phần tử mẹ vs phần tử con của nó
+sử dụng flex khi có phần tử mẹ của nó
++1 thẻ inline không thể bao 1 thẻ lưỡng tính
++position : vị trí
+-position relative: là vị trí tương đối của phần tử  mà giá trị mặc định của nó tại vị trí xuất hiện(đa phần sử dụng khi không có sự can thiệp của top right bottom left)
+-ý nghĩa thật sự của relative là định vị các phần tử con của nó
++absolute: là vị trí tuyệt đối đc định nghĩa(không di dời),mặc định top 0, left 0;
++absolute luôn chạy theo các khối cha của relative(khối trên không relative thì phải ra xa hơn để kiếm relative, nếu không có thì theo body)
+-fixed: tự đứng vị trí của nó và luôn luôn chạy theo body
++khi phần tử relative không có height thì mất độ cao

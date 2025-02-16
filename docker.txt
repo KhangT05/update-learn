@@ -1,0 +1,31 @@
+doc.docker.com //install docker engine
+-các lệnh cơ bản của docker
+docker <tên đt cần tt> < mã lệnh>
+-các đối tượng của docker cần lưu ý
+image
+container
+network
+volume
+-các mã lệnh vs imaage
++docker image pull <image>:tag | docker pull
++docker image push <image>:tag | docker push
++docker image pull <image> 
++docker image ls | docker images
++docker image prune
+-các mã lệnh vs container 
++docker container run <image> chạy docker
++docker container ls | docker container ls -a list , list -a và list ra cả docker đã shut down
++docker ps | docker ps -a // all
++docker container stop
++docker container prune //xóa
++docker container exec // chạy 1 lệnh bên trong bất kỳ <container_id>
+
+
++container life cycle
+-run
+exited 137 là kết thúc docker không đúng cách
++docker run alpine
++docker run -it alpine
+cat /etc/os-release
+ctrl + p+q //thoát tạm thời 
+chạy lại docker thoát tạm thời // docker attach <container_id>
