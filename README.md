@@ -18,4 +18,9 @@ git push tai len github
 git pull tai github ve cac chinh sua va push cac file len lai
 gitgnore de an cac file k muon push len github
 git restore --staged "ten file"
+
+
+
+
+cmd // dxdiag
   -->

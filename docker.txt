@@ -6,7 +6,7 @@ image
 container
 network
 volume
--các mã lệnh vs imaage
+-các mã lệnh vs image
 +docker image pull <image>:tag | docker pull
 +docker image push <image>:tag | docker push
 +docker image pull <image> 
@@ -29,3 +29,21 @@ exited 137 là kết thúc docker không đúng cách
 cat /etc/os-release
 ctrl + p+q //thoát tạm thời 
 chạy lại docker thoát tạm thời // docker attach <container_id>
+
++dockerfile
+--Form lay tu tren dockerhub
+--RUN wget / curl --- ...
+--ADD đường dẫn tương đối
++Chỉ add được file từ host(src) vào image
++ Nếu add folder thì chỉ copy nội dung
++Nếu copy từ thư mục thì phải có / ở cuối
++ Nếu file có kí tự đặc biệt thì nên cho vào thư mục rồi hãy add
++ Nếu dest k tồn tại mà có trong ADD thì nó tự tạo
+
+COPY
++không thể copy file remote
++rar và tar tự lấy nội dung và tự động giải nén
++RUN chạy để build image
+RUN npm install
+RUN dotnet restore...
+CMD- chạy khi container khởi tạo trên image đã build

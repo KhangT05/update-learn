@@ -1,0 +1,6 @@
+AJAX 
++ là sử lý bất đồng độ
++không load lại trang khi gửi form
++dùng nhiều trong hệ thống monilithic khi có FE+BE dính liền với nhau trong cùng 1 hệ thống
+API
++ Giao tiếp với nhau giữa các hệ thống , thường dùng trong hệ thống tích hợp giữa các ngôn ngữ khác nhau

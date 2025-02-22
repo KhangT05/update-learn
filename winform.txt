@@ -1,0 +1,5 @@
+các sự kiện cần nhớ khi sử dụng winform
+--Key
++keypress : Mô tả các loại sự kiện khi nhấn xuống ( như điều kiện để không nhập chữ hoặc ,...)
++keydown : bắt đầu ấn phím
++keyup : Đã Nhấn phím xong

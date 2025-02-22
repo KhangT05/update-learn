@@ -12,3 +12,6 @@ sử dụng flex khi có phần tử mẹ của nó
 +absolute luôn chạy theo các khối cha của relative(khối trên không relative thì phải ra xa hơn để kiếm relative, nếu không có thì theo body)
 -fixed: tự đứng vị trí của nó và luôn luôn chạy theo body
 +khi phần tử relative không có height thì mất độ cao
+
+
+
