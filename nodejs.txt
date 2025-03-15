@@ -1,0 +1,16 @@
+Các lệnh khởi tạo để tạo migrations , seeders
+*npm install  sequelize  sequelize-cli
++npm install mysql2 
+*npx sequelize-cli init
+* Để tạo bảng
+npx sequelize-cli model:generate --name loai --attributes  ten_loai:string 
+npx sequelize-cli model:generate --name san_pham --attributes ten_sp:string
+npx sequelize-cli model:generate --name user --attributes email:string
+
+
+* Chạy migrations
+ npx sequelize-cli db:migrate 
+
+*Hủy bảng
+npx sequelize-cli db:migrate:undo  => hủy bỏ kết quả của migration cuối
+npx sequelize-cli db:migrate:undo:all   => hủy bỏ kết quả của tất cả các migration

@@ -1,0 +1,14 @@
+- Admin
++ Id varchar(10) primary key not null
++ Name nvarchar(255)
++ Sex nvarchar(6)
++ Adress nvarchar(255)
++ Date date
++ Luong varchar(20)
++ status int
++ phone varchar(10)
+
+
+- user
++ Makh varchar(10)
++ name nvarchar (10)
